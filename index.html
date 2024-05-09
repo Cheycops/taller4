@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITUD DE PEDIDO</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+<body>
+    <h1 class="text-center mt-5 container border border-dark">SOLICITUD DE PEDIDO</h1>
+
+
+    <div div class="container border mt-5 border-danger-subtle">
+        <section class="border m-2 p-2 row position-relative ">
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="Escriba el nombre del producto" name="producto" id="producto">
+            </div>
+            <div class="col-3">
+                <input type="number" class="form-control" placeholder="Escriba el precio del producto" name="Valor" id="Valor">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="Observacion del producto" name="Observacion" id="Observacion">
+            </div>
+            <div class="col-1 position-absolute top-2 end-0">
+                <input type="button" class="btn btn-success" name="BUSCAR" onclick="additems()" value="Subir" >
+            </div>
+        </section>
+        <section class="border m-2 p-3">
+            <div class="m-2" id="lista-de-productos">
+                No hay productos
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+    </footer>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/objetScript.js"></script>
+</body>
+</html>
